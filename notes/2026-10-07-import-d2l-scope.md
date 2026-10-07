@@ -1,5 +1,7 @@
 # import d2l 之后,math / torch 还需要导入吗?
 
+> **In short:** `import d2l` and `from d2l import torch as d2l` are different statements, and imports live in one file's namespace only.
+
 - **日期:** 2026-10-07
 - **章节:** 前置 / 环境准备
 - **来源:** 接着上一条问题
