@@ -1,5 +1,7 @@
 # z.sum().backward() 是什么意思?
 
+> **In short:** `backward()` needs a scalar, so `.sum()` hands it a seed vector of all ones. It is exactly `z.backward(torch.ones_like(z))`.
+
 - **日期:** 2026-10-07
 - **章节:** 2.5.3 分离计算(自动微分)
 - **来源:** 看书卡住
