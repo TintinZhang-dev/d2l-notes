@@ -1,5 +1,7 @@
 # #@save 是什么意思?
 
+> **In short:** `#@save` is a d2l book-build directive that copies the cell into the `d2l` package. It is not Python syntax.
+
 - **日期:** 2026-10-07
 - **章节:** 3.2.1 生成数据集
 - **来源:** 看书时的疑问
