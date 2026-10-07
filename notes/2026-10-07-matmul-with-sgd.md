@@ -1,5 +1,7 @@
 # torch.matmul()、with 语句、sgd()
 
+> **In short:** `torch.matmul` / `@` is matrix multiplication (`*` is element-wise); `with torch.no_grad()` stops graph recording; `sgd` is `param -= lr * grad / batch_size`.
+
 - **日期:** 2026-10-07
 - **章节:** 3.2 从零开始实现
 - **来源:** 三个没看懂的写法
