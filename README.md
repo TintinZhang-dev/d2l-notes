@@ -1,27 +1,35 @@
 # d2l-notes
 
-自学《动手学深度学习》(Dive into Deep Learning,d2l.ai)的问题档案。
+My study log for *Dive into Deep Learning* ([d2l.ai](https://d2l.ai)), PyTorch edition.
 
-- 框架:PyTorch
-- 开始:2026-09
-- 用途:留下真实的学习轨迹,以后可以给面试官看
+> **In short:** raw notes, in the order I hit them, mistakes included. Not tutorials.
 
-## 这里记什么
+- **Framework:** PyTorch
+- **Started:** 2026-09
+- **Where I am:** see [progress.md](progress.md)
 
-重点不是标准答案,是思考过程。每条问题按这个顺序写:
+## Why this exists
 
-1. 我原本的问题
-2. 第一反应和猜测
-3. 卡住的地方
-4. 想通之后的理解
-5. 代码验证
+I kept forgetting things I had already figured out once. Writing them down fixes that.
 
-卡住的地方最值钱。错了就留错,别回头改。
+These are not polished explanations. They are what actually happened:
 
-## 结构
+1. The question, in my own words
+2. My first guess
+3. Where I got stuck
+4. The answer that made it click
+5. The code I ran to check it
 
-- `notes/` 一个问题一个文件,命名 `YYYY-MM-DD-关键词.md`
-- `code/` 用来验证的代码,跑通才算数
-- `progress.md` 学到哪了
+**Where I got stuck is the interesting part.** Nothing gets tidied up after the fact.
 
-模板见 `notes/_TEMPLATE.md`。
+## Language
+
+Notes are written in Chinese, with an English summary at the top of every file. Code, API names and technical terms are in English throughout. I am moving toward writing more English as I go.
+
+## Layout
+
+- `notes/` — one file per question, named `YYYY-MM-DD-topic.md`
+- `code/` — scripts I actually run
+- `progress.md` — where I am, and what comes next
+
+Skimming? Read the `In short:` line of a note, then the headings.
