@@ -1,5 +1,7 @@
 # from ... import ... 是什么意思?
 
+> **In short:** `from x import y` re-loads nothing. It binds one more name in *your* namespace, next to the module itself.
+
 - **日期:** 2026-10-07
 - **章节:** 前置 / 环境准备
 - **来源:** 接着 import 那两条问题
