@@ -1,5 +1,7 @@
 # 到时候环境怎么搭?
 
+> **In short:** Three packages are enough. Use a venv, drive it from VSCode, and keep the project inside WSL (`~/`), never `/mnt/c/`.
+
 - **日期:** 2026-10-07
 - **章节:** 前置 / 环境准备
 - **来源:** 自己想到的实操问题
