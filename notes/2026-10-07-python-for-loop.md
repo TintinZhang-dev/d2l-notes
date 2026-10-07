@@ -1,5 +1,7 @@
 # Python 的 for:初始值、x++、以及 in 后面能放什么
 
+> **In short:** Python's `for` is iteration, not counting. The thing after `in` is any iterable, and `++` does not exist.
+
 - **日期:** 2026-10-07
 - **章节:** Python 语法基础
 - **来源:** 看 2.1 循环代码时想到的
