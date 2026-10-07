@@ -1,5 +1,7 @@
 # exp(1.0) = 2.7183e+00,为什么?
 
+> **In short:** `2.7183e+00` is scientific notation (2.7183 x 10^0). That `e` means *exponent*, not Euler's number.
+
 - **日期:** 2026-10-07
 - **章节:** 前置 / 数学基础
 - **来源:** 看输出时的疑惑
