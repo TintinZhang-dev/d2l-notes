@@ -1,0 +1,6 @@
+# 装完跑 pip freeze > requirements.txt 生成精确版本
+# 这里先留一份「最小清单」,方便新机器起步
+torch
+torchvision
+d2l
+jupyter
