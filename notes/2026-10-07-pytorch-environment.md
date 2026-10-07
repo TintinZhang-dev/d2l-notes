@@ -1,5 +1,7 @@
 # PyTorch 是 Python 的插件,还是一套独立环境?
 
+> **In short:** PyTorch is a Python *package*, not a separate environment: one interpreter, many virtualenvs, and the package sitting inside one of them.
+
 - **日期:** 2026-10-07
 - **章节:** 前置 / 环境准备(第 0 章)
 - **来源:** 自学中冒出的问题,关系到之后买电脑
