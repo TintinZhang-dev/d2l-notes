@@ -1,5 +1,7 @@
 # 书里为什么没有 `import PyTorch`?
 
+> **In short:** The import name is `torch`, not `PyTorch`. A pip distribution name and its import name do not have to match.
+
 - **日期:** 2026-10-07
 - **章节:** 前置 / 环境准备
 - **来源:** 翻书时发现的疑点
