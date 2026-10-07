@@ -1,5 +1,7 @@
 # 3.1.3 似然看不懂
 
+> **In short:** Likelihood is probability read backwards. Under Gaussian noise, minimizing MSE *is* maximum likelihood estimation.
+
 - **日期:** 2026-10-07
 - **章节:** 3.1.3 正态分布与平方损失
 - **来源:** 看书卡住
