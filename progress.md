@@ -24,6 +24,7 @@ Self-studying *Dive into Deep Learning* (d2l.ai), PyTorch edition.
 | 2026-10-17 | 2.3.6 / 2.3.8 | [Row sum vs matrix-vector, and the 1-D trap](notes/2026-10-17-row-sum-vs-matvec.md) |
 | 2026-10-17 | 2.3.8 Matrix-vector | [`torch.mv` and friends](notes/2026-10-17-torch-mv.md) |
 | 2026-10-17 | 2.3.9 Matrix-matrix | [Shape rule and three properties](notes/2026-10-17-matmul.md) |
+| 2026-11-14 | 2.1.5 Saving memory | [`id()` and `Y[:]` are plain Python](notes/2026-11-14-id-and-slice-assign.md) |
 
 ## Where I stopped
 
