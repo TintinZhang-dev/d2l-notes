@@ -28,6 +28,7 @@ Self-studying *Dive into Deep Learning* (d2l.ai), PyTorch edition.
 | 2026-11-14 | 2.1.2 Indexing and slicing | [0-based, half-open, comma = axis](notes/2026-11-14-indexing-slices.md) |
 | 2026-11-14 | 2.1 Exercises (discussion) | [Data vs algorithm: evidence vs compression](notes/2026-11-14-data-and-algorithm.md) |
 | 2026-11-14 | 2.1 code / Jupyter | [`%matplotlib inline` is a magic, not Python](notes/2026-11-14-matplotlib-inline.md) |
+| 2026-11-14 | 3.2.1–3.2.2 code | [synthetic_data, labels, scatter, shuffle, yield](notes/2026-11-14-3.2-code-walkthrough.md) |
 
 ## Where I stopped
 
