@@ -115,6 +115,70 @@ with torch.no_grad():        # 进入：不记录梯度
 - `for` = 把一摞文件挨个盖章
 - `with` = 借了钥匙进房间，出来自动把门锁上
 
+## 补：with open 和 with torch.no_grad() 是同一件事
+
+我只学过 `with open`。那就从这个往上加一层。
+
+### 通用形状
+
+```python
+with 表达式 [as 名字]:
+    块
+```
+
+不管里面是什么，机制都一样：
+
+1. 先算 `表达式`，拿到一个对象
+2. 进入块之前，调它的 `__enter__`
+3. 块执行完（正常结束或报错），调它的 `__exit__`
+
+所以 `with` 本身不关心是文件还是梯度。它只管“进去做一件事，出来做另一件事”。
+
+### 两种写法对照
+
+```python
+with open('/tmp/a.txt', 'w') as f:   # 进入时打开文件，f 是文件对象
+    f.write('hi')                     # 退出时自动 close
+
+with torch.no_grad():                 # 进入时关梯度，退出时恢复
+    param -= ...                      # 不需要 as，因为我们不用那个对象
+```
+
+区别只有两点：
+
+1. `open(...)` 返回文件对象，要拿来写，所以 `as f`
+2. `torch.no_grad()` 只要副作用，不需要名字，所以不写 `as`
+
+语法完全一样。
+
+### 自己造一个，就明白了
+
+```python
+class NoGrad:
+    def __enter__(self):
+        print('进入块：关掉梯度记录')
+        return self
+    def __exit__(self, *a):
+        print('离开块：恢复梯度记录')
+
+with NoGrad():
+    print('  块内干活')
+```
+
+实测输出（我跑过）：
+
+```
+进入块：关掉梯度记录
+  块内干活
+离开块：恢复梯度记录
+```
+
+`torch.no_grad()` 干的就是这件事，只是它真的去改了 PyTorch 的一个全局开关。
+
+### 所以
+
+`with torch.no_grad():` 不是新语法。你会的 `with open` 已经够了，只是把“文件”换成“梯度开关”。
+
 ## 代码验证
 
 ```python
