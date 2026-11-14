@@ -31,6 +31,7 @@ Self-studying *Dive into Deep Learning* (d2l.ai), PyTorch edition.
 | 2026-11-14 | 3.2.1–3.2.2 code | [synthetic_data, labels, scatter, shuffle, yield](notes/2026-11-14-3.2-code-walkthrough.md) |
 | 2026-11-14 | Python syntax | [`yield` and generators, in detail](notes/2026-11-14-yield-generator.md) |
 | 2026-11-14 | 3.2.6 Defining the optimization algorithm | [`sgd`: no_grad, /batch_size, zero_()](notes/2026-11-14-3.2.6-sgd.md) |
+| 2026-11-14 | Python syntax | [`for` and `with`, from scratch](notes/2026-11-14-for-and-with.md) |
 
 ## Where I stopped
 
