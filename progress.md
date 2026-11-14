@@ -30,6 +30,7 @@ Self-studying *Dive into Deep Learning* (d2l.ai), PyTorch edition.
 | 2026-11-14 | 2.1 code / Jupyter | [`%matplotlib inline` is a magic, not Python](notes/2026-11-14-matplotlib-inline.md) |
 | 2026-11-14 | 3.2.1–3.2.2 code | [synthetic_data, labels, scatter, shuffle, yield](notes/2026-11-14-3.2-code-walkthrough.md) |
 | 2026-11-14 | Python syntax | [`yield` and generators, in detail](notes/2026-11-14-yield-generator.md) |
+| 2026-11-14 | 3.2.6 Defining the optimization algorithm | [`sgd`: no_grad, /batch_size, zero_()](notes/2026-11-14-3.2.6-sgd.md) |
 
 ## Where I stopped
 
