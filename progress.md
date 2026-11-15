@@ -44,6 +44,7 @@ Self-studying *Dive into Deep Learning* (d2l.ai), PyTorch edition.
 | 2026-11-14 | 4.5 Weight decay | [`lambda` is an anonymous function](notes/2026-11-14-lambda.md) |
 | 2026-11-14 | 4.4 / 4.5 | [`MSELoss(reduction='none')`](notes/2026-11-14-reduction-none.md) |
 | 2026-11-14 | 5.1 Layers and blocks | [`super().__init__()` in nn.Module](notes/2026-11-14-super-init.md) |
+| 2026-11-14 | 5.1 Layers and blocks | [`grad_fn=<AddmmBackward>` explained](notes/2026-11-14-grad-fn-addmm.md) |
 
 ## Where I stopped
 
