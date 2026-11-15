@@ -38,6 +38,7 @@ Self-studying *Dive into Deep Learning* (d2l.ai), PyTorch edition.
 | 2026-11-14 | 3.3.7 Exercises | [Sum vs mean loss, accessing gradients](notes/2026-11-14-3.3-exercises.md) |
 | 2026-11-14 | 3.4.7 Exercises | [Saved for later: three math-heavy questions](notes/2026-11-14-3.4-exercises.md) |
 | 2026-11-14 | 3.5.1 Reading the dataset | [root, download, imshow, set_title, set_visible](notes/2026-11-14-3.5.1-dataset-and-show-images.md) |
+| 2026-11-14 | Tooling (not in the book) | [The minimum you actually need](notes/2026-11-14-tooling-minimum.md) |
 
 ## Where I stopped
 
