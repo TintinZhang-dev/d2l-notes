@@ -42,6 +42,7 @@ Self-studying *Dive into Deep Learning* (d2l.ai), PyTorch edition.
 | 2026-11-14 | Tooling (not in the book) | [matplotlib: Figure, Axes, plt vs ax](notes/2026-11-14-matplotlib-mental-model.md) |
 | 2026-11-14 | 3.6 Training loop | [What `Animator` is, and what to skip](notes/2026-11-14-animator.md) |
 | 2026-11-14 | 4.5 Weight decay | [`lambda` is an anonymous function](notes/2026-11-14-lambda.md) |
+| 2026-11-14 | 4.4 / 4.5 | [`MSELoss(reduction='none')`](notes/2026-11-14-reduction-none.md) |
 
 ## Where I stopped
 
