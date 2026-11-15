@@ -47,6 +47,7 @@ Self-studying *Dive into Deep Learning* (d2l.ai), PyTorch edition.
 | 2026-11-14 | 5.1 Layers and blocks | [`grad_fn=<AddmmBackward>` explained](notes/2026-11-14-grad-fn-addmm.md) |
 | 2026-11-14 | 5.5.2 Saving and loading | [`clone.eval()` and state_dict](notes/2026-11-14-eval-and-clone.md) |
 | 2026-11-14 | 6.2.1 Cross-correlation | [Output shape: H - h + 1](notes/2026-11-14-corr2d-shape.md) |
+| 2026-11-14 | 6.3 Padding and stride | [`Conv2d(in, out, ...)` and weight shape](notes/2026-11-14-conv2d-channels.md) |
 
 ## Where I stopped
 
