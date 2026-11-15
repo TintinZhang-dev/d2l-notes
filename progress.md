@@ -40,6 +40,7 @@ Self-studying *Dive into Deep Learning* (d2l.ai), PyTorch edition.
 | 2026-11-14 | 3.5.1 Reading the dataset | [root, download, imshow, set_title, set_visible](notes/2026-11-14-3.5.1-dataset-and-show-images.md) |
 | 2026-11-14 | Tooling (not in the book) | [The minimum you actually need](notes/2026-11-14-tooling-minimum.md) |
 | 2026-11-14 | Tooling (not in the book) | [matplotlib: Figure, Axes, plt vs ax](notes/2026-11-14-matplotlib-mental-model.md) |
+| 2026-11-14 | 3.6 Training loop | [What `Animator` is, and what to skip](notes/2026-11-14-animator.md) |
 
 ## Where I stopped
 
