@@ -34,6 +34,7 @@ Self-studying *Dive into Deep Learning* (d2l.ai), PyTorch edition.
 | 2026-11-14 | Python syntax | [`for` and `with`, from scratch](notes/2026-11-14-for-and-with.md) |
 | 2026-11-14 | 3.2.4 / 3.2.7 | [`net` is just an alias for `linreg`](notes/2026-11-14-net-is-linreg.md) |
 | 2026-11-14 | 3.3.2 Reading the dataset | [TensorDataset, DataLoader, next(iter(...))](notes/2026-11-14-tensordataset-dataloader.md) |
+| 2026-11-14 | 3.2.9 Exercises | [Seven questions; Q1 and Q7 worked](notes/2026-11-14-3.2-exercises.md) |
 
 ## Where I stopped
 
