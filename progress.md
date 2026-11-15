@@ -57,7 +57,7 @@ sgd([w, b], lr, batch_size)
 
 ## Todo
 
-- [ ] 3.2 exercises
+- [x] 3.2 exercises（第 1–5 题已过；第 6 题是 lr 对比实验，等电脑到了再跑）
 - [ ] 3.3 Concise implementation (swap `net` / `loss` for framework objects; the training loop barely changes)
 - [ ] Run the setup script on the new machine (after the November build)
 
