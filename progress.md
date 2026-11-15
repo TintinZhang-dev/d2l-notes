@@ -35,6 +35,7 @@ Self-studying *Dive into Deep Learning* (d2l.ai), PyTorch edition.
 | 2026-11-14 | 3.2.4 / 3.2.7 | [`net` is just an alias for `linreg`](notes/2026-11-14-net-is-linreg.md) |
 | 2026-11-14 | 3.3.2 Reading the dataset | [TensorDataset, DataLoader, next(iter(...))](notes/2026-11-14-tensordataset-dataloader.md) |
 | 2026-11-14 | 3.2.9 Exercises | [Seven questions; Q1 and Q7 worked](notes/2026-11-14-3.2-exercises.md) |
+| 2026-11-14 | 3.3.7 Exercises | [Sum vs mean loss, accessing gradients](notes/2026-11-14-3.3-exercises.md) |
 
 ## Where I stopped
 
@@ -58,6 +59,7 @@ sgd([w, b], lr, batch_size)
 ## Todo
 
 - [x] 3.2 exercises（第 1–5 题已过；第 6 题是 lr 对比实验，等电脑到了再跑）
+- [ ] 3.3 exercise 2（Huber 损失替换 + 框架损失/初始化调研）
 - [ ] 3.3 Concise implementation (swap `net` / `loss` for framework objects; the training loop barely changes)
 - [ ] Run the setup script on the new machine (after the November build)
 
